@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.header {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background: rgb(144,19,254);
+    background: linear-gradient(146deg, rgba(144,19,254,1) 0%, rgba(80,35,119,1) 100%);
+    clip-path: ellipse(252% 100% at -77.26% 0%);
+}
+
+.header span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-70%);
+    margin-left: 30px;
+    padding-left: 15px;
+    font-size: 64px;
+    color: whitesmoke;
+    border-left: 2px solid whitesmoke
+}
+
+.header p {
+    font-size: 32px;
+}
+
+.navbar, .navbar-brand {
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+
+.navbar-brand {
+    margin-left: 25px;
+}
+
+.nav-item {
+    border-bottom-color: whitesmoke ;
+    margin-right: 25px;
+    transition: 0.5s;
+}
+
+.nav-item:hover {
+    border-bottom: 1px solid whitesmoke;
+}
+.main {
+    height: 100%;
+    margin-bottom: 150px;
+
+}
+.main .info {
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+.offer, .more {
+    margin-top: 40px;
+    padding: 10px 50px 10px 50px;
+    background-color: red;
+    width: 300px;
+    font-size: 24px;
+    line-height: 100%;
+    height: 50px;
+    border-radius: 24px;
+    color: whitesmoke;
+    display: block;
+    transition: 0.5s;
+    cursor: pointer;
+    background-size: 200% auto;
+
+    box-shadow: 10px 10px 37px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 37px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 37px -3px rgba(0,0,0,0.75);
+}
+
+
+.offer {
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    
+}
+
+.offer:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.more {
+    background-image: linear-gradient(to right, #B993D6 0%, #8CA6DB  51%, #B993D6  100%);
+    color: whitesmoke;
+}
+
+.more:hover {
+    background-position: right center; /* change the direction of the change here */
+}
+
+
+.point {
+    border-left: 2px solid black;
+    margin-left: 70px;
+    margin-top: 50px;
+    padding-left: 25px;
+    width: calc(100% - 70px);
+}
+
+.point span {
+    font-size: 54px;
+    font-weight: 800;
+}
+
+.subpoint span {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.review {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    width: calc(100% - 70px);
+    max-width: 1100px;
+    text-align: center;
+}
+
+.review .rate {
+    font-size: 128px;
+    font-weight: 600;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.review .rateMax {
+    font-size: 54px;
+    font-weight: 600;
+    margin-right: 25px;
+    color: black;
+}
+
+.review .opinion {
+    font-size: 32px;
+}
+
+.review i {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0 20px 0 20px;
+}
