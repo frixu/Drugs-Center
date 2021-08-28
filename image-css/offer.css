@@ -1,0 +1,36 @@
+.imagepls{
+    height: auto;
+    width: auto;
+    left: 0;
+    top: 0;
+    position: relative;
+    text-align: center;
+    color:black;
+}
+.grow:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+.fade
+{
+        opacity:0.5;
+}
+.fade:hover
+{
+        opacity:1;
+}
+
+img.pol {
+    width: 50%;
+    height: auto;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
