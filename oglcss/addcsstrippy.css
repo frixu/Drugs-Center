@@ -1,6 +1,12 @@
 
   .trippy{
     display: inline-block;
+    color: white;
+    font: bold;
+}
+
+.trippy:hover{
+    display: inline-block;
     animation: irony 0.9s linear infinite;
     color: white;
     font: bold;
