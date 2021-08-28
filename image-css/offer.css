@@ -7,7 +7,20 @@
     text-align: center;
     color:black;
     border-radius: 50%;
+    text-decoration: none;
 }
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+    color:#000000; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
 .grow:hover
 {
         -webkit-transform: scale(1.3);
