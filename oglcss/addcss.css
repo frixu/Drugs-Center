@@ -1,0 +1,79 @@
+/* Typewriter effect 1 */
+@keyframes typing {
+  0.0000%, 27.3488% { content: ""; }
+  1.1395%, 26.2093% { content: "m"; }
+  2.2791%, 25.0698% { content: "min"; }
+  3.4186%, 23.9302% { content: "mind"; }
+
+  30.7674%, 51.2791% { content: ""; }
+  31.9070%, 50.1395% { content: "e"; }
+  33.0465%, 49.0000% { content: "ef"; }
+  34.1860%, 47.8605% { content: "effe"; }
+  35.3256%, 46.7209% { content: "effec"; }
+  36.4651%, 45.5814% { content: "effecie"; }
+  37.6047%, 44.4419% { content: "effeciency"; }
+
+  54.6977%, 75.2093% { content: ""; }
+  55.8372%, 74.0698% { content: "h"; }
+  56.9767%, 72.9302% { content: "hu"; }
+  58.1163%, 71.7907% { content: "hum"; }
+  59.2558%, 70.6512% { content: "huma"; }
+  60.3953%, 69.5116% { content: "humani"; }
+  61.5349%, 68.3721% { content: "humanity"; }
+
+  78.6279%, 96.8605% { content: ""; }
+  79.7674%, 95.7209% { content: "c"; }
+  80.9070%, 94.5814% { content: "ch"; }
+  82.0465%, 93.4419% { content: "chi"; }
+  83.1860%, 92.3023% { content: "chil"; }
+  84.3256%, 91.1628% { content: "chill"; }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.typewriter {
+  --caret: currentcolor;
+}
+
+.typewriter::before {
+  content: "";
+  animation: typing 13.5s infinite;
+}
+
+.typewriter::after {
+  content: "";
+  border-right: 1px solid var(--caret);
+  animation: blink 0.5s linear infinite;
+}
+
+.typewriter.thick::after {
+  border-right: 1ch solid var(--caret);
+}
+
+.typewriter.nocaret::after {
+  border-right: 0;
+}
+
+
+@media (prefers-reduced-motion) {
+  .typewriter::after {
+    animation: none;
+  }
+  
+  @keyframes sequencePopup {
+    0%, 100% { content: "developer"; }
+    25% { content: "writer"; }
+    50% { content: "reader"; }
+    75% { content: "human"; }
+  }
+
+  .typewriter::before {
+    content: "developer";
+    animation: sequencePopup 12s linear infinite;
+  }
+}
+
+/**/
