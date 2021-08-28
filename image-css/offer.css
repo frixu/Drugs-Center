@@ -3,7 +3,7 @@
     width: auto;
     left: 0;
     top: 0;
-    position: relative;
+    position: flex;
     text-align: center;
     color:black;
     border-radius: 50%;
@@ -37,7 +37,7 @@ a:hover {
         opacity:1;
 }
 
-img.pol {
+.img-pol {
     width: 50%;
     height: auto;
 }
@@ -49,3 +49,64 @@ img.pol {
     transform: translate(-50%, -50%);
 }
  
+.slideInRight {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes slideInRight {
+    0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    }
+    @keyframes slideInRight {
+    0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    } 
+    
+    .slideInLeft {
+      -webkit-animation-name: slideInLeft;
+      animation-name: slideInLeft;
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+      }
+      @-webkit-keyframes slideInLeft {
+      0% {
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+      visibility: visible;
+      }
+      100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      }
+      }
+      @keyframes slideInLeft {
+      0% {
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+      visibility: visible;
+      }
+      100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      }
+      } 
