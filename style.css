@@ -5,7 +5,9 @@
     font-family: 'Lato', sans-serif;
 }
 
-
+body{
+background-color: #333;
+}
 
 .header {
     width: 100%;
@@ -97,7 +99,7 @@
 }
 
 .more:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center;
 }
 
 
@@ -169,4 +171,11 @@
 
 .red{
     color: darkred;
+}
+
+.changecolor{
+
+}
+.changecolor:hover{
+    color:blueviolet
 }
