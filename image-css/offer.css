@@ -1,0 +1,112 @@
+.imagepls{
+    height: auto;
+    width: auto;
+    left: 0;
+    top: 0;
+    position: flex;
+    text-align: center;
+    color:black;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+    color:#000000; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.grow:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+.fade
+{
+        opacity:0.9;
+}
+.fade:hover
+{
+        opacity:1;
+}
+
+.img-pol {
+    width: 50%;
+    height: auto;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ 
+.slideInRight {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes slideInRight {
+    0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    }
+    @keyframes slideInRight {
+    0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    } 
+    
+    .slideInLeft {
+      -webkit-animation-name: slideInLeft;
+      animation-name: slideInLeft;
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+      }
+      @-webkit-keyframes slideInLeft {
+      0% {
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+      visibility: visible;
+      }
+      100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      }
+      }
+      @keyframes slideInLeft {
+      0% {
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+      visibility: visible;
+      }
+      100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      }
+      } 

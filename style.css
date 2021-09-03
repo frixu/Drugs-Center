@@ -5,7 +5,9 @@
     font-family: 'Lato', sans-serif;
 }
 
-
+body{
+background-color: rgb(255, 255, 255);
+}
 
 .header {
     width: 100%;
@@ -97,7 +99,7 @@
 }
 
 .more:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center;
 }
 
 
@@ -140,7 +142,7 @@
     font-size: 54px;
     font-weight: 600;
     margin-right: 25px;
-    color: black;
+    color: white;
 }
 
 .review .opinion {
@@ -151,4 +153,33 @@
     font-size: 32px;
     font-weight: 600;
     margin: 0 20px 0 20px;
+}
+
+.reviewimg {
+    left: 0;
+    top: 0;
+    scale: 35%;
+    height: 35%;
+    width: 35%;
+    padding: 35%;
+    position: absolute;
+}
+
+.yellow{
+    color: darkgoldenrod;
+}
+
+.red{
+    color: darkred;
+}
+
+.changecolor{
+
+}
+.changecolor:hover{
+    color:blueviolet
+}
+
+.white{
+    color: #fff;
 }
